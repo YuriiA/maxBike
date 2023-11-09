@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "email": "1@a.com",
+      "password": "$2a$10$CTYbIpvzW1WDToyhd.OcauumaRLMFM.H8v4V465gSj5mL/8JcClga",
+      "firstName": "aaa",
+      "lastName": "ddd",
+      "website": "ex.com",
+      "id": 1
+    }
+  ],
+  "ads": [
+    {
+      "userId": 1,
+      "title": "KTM Duke",
+      "year": "2022",
+      "price": "400",
+      "area": "0",
+      "rooms": "0",
+      "phone": "074212345",
+      "country": "Ro",
+      "city": "Bacau",
+      "description": "KTM Duke 125 ",
+      "url": "http://res.cloudinary.com/dynamics/image/upload/v1699484715/cscp4x48b10buhjdbqrg.jpg",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "title": "Husqvarna Svartpilen 401",
+      "year": "2023",
+      "price": "480",
+      "area": "0",
+      "rooms": "0",
+      "phone": "074256123",
+      "country": "Ro",
+      "city": "Bacau",
+      "description": "Husqvarna Svartpilen 401 2023 este un naked potrivit pentru naveta de zi cu zi, al carui loc de joaca preferat este spatiul metropolitan. Utilizeaza un motor de greutate usoara, suficient de puternic pentru a naviga strazile orasului si imprejurimile acestuia. Grafica si culorile intunecate contribuie la look-ul sau iesit din comun si reflecta, totodata, mixul progresiv de gandire moderna si design clasic ce urmeaza mostenirea suedeza a brandului.\n\nSvartpilen 401 este alimentat de un motor monocilindru 373cc remarcabil de compact. Cu un cuplu de 37Nm in gama joasa de turatii si cutie de viteze cu 6 trepte, aceasta motorcicleta Husqvarna este partenerul perfect pentru pilotare urbana. Injectia electronica este operata de un sistem ride-by-wire si livreaza putere controlata, rafinata. Cu maximum 44 cai putere, Svartpilen este o optiune accesibila pentru o larga tipologie de rideri, in timp ce constructia sa usoara inseamna ca raportul putere-greutate ii va incanta si pe pilotii mai experimentati. \n\nCadrul trellis este un element central al caracterului si agilitatii lui Svartpilen 401. Fabricat din otel de inalta rezistenta crom-molibden, cadrul ofera rezistenta, o manevrabilitate agila si feedback detaliat riderului. Proiectat cu caracteristici de flexiune specifice, cadrul lucreaza in armonie cu suspensia WP pentru a garanta un sentiment de confort si incredere combinat cu viraje stranse, lucru deosebit de util in mediile urbane. \n\nCaracteristici tehnice: \n\nmotor 1 cilindru, 373 cc, 4 timpi, racire pe lichid, injectie electronica, 44 CP\npornire electrica \nBosch ABS\nfrana fata pe disc, 320mm, ByBre, etrier cu 4 pistoane\nfrana spate pe disc, 230mm, ByBre, un singur piston, etrier flotant \nsuspensie fata WP APEX 43, cursa 142 mm\nsuspensie spate cu monoamortizor WP APEX, cursa 142 mm \njante 17 inch \nghidon in stil offroad\nclema tripla din aluminiu forjat.",
+      "url": "http://res.cloudinary.com/dynamics/image/upload/v1699484884/ucejjftazx5ktssyf6gl.jpg",
+      "id": 2
+    }
+  ]
+}
