@@ -219,7 +219,7 @@ export function NewAd() {
           type="text"
           name="phone"
           maxLength={36}
-          pattern="[+-]?\d+(?:[.,]\d+)?"
+          
           value={ads.phone}
           onChange={handleChange}
           className={clsx("form-control", { "is-invalid": errors.phone })}
