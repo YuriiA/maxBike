@@ -11,9 +11,7 @@ export function NewAd() {
     title: "",
     year: "",
     price: "",
-    area: "",
-    rooms: "",
-    country: "",
+    
     phone: "",
     description: "",
     url: null,
@@ -26,8 +24,7 @@ export function NewAd() {
     title: "",
     year: "",
     price: "",
-    area: "",
-    rooms: "",
+  
     country: "",
   });
 
@@ -84,21 +81,7 @@ export function NewAd() {
       newErrors.price = "Please enter the price";
     }
 
-    if (!ads.area) {
-      isValid = false;
-      newErrors.area = "Area is required";
-    }
-
-    if (!ads.rooms) {
-      isValid = false;
-      newErrors.rooms = "Number of rooms is required";
-    }
-
-    if (!ads.country) {
-      isValid = false;
-      newErrors.country = "country is required";
-    }
-
+   
     if (!ads.city) {
       isValid = false;
       newErrors.city = "City is required";
@@ -150,10 +133,8 @@ export function NewAd() {
           title: ads.title,
           year: ads.year,
           price: ads.price,
-          area: ads.area,
-          rooms: ads.rooms,
           phone: ads.phone,
-          country: ads.country,
+        
           city: ads.city,
           description: ads.description,
           url: url,
@@ -220,38 +201,6 @@ export function NewAd() {
         />
         {errors.price && <div className="invalid-feedback">{errors.price}</div>}
 
-        <label htmlFor="area"> Area (m2)</label>
-        <input
-          type="number"
-          name="area"
-          value={ads.area}
-          onChange={handleChange}
-          className={clsx("form-control", { "is-invalid": errors.area })}
-        />
-        {errors.area && <div className="invalid-feedback">{errors.area}</div>}
-
-        <label htmlFor="rooms"> Rooms </label>
-        <input
-          type="number"
-          name="rooms"
-          value={ads.rooms}
-          onChange={handleChange}
-          className={clsx("form-control", { "is-invalid": errors.rooms })}
-        />
-        {errors.rooms && <div className="invalid-feedback">{errors.rooms}</div>}
-
-        <label htmlFor="country"> Country </label>
-        <input
-          type="text"
-          name="country"
-          onChange={handleChange}
-          value={ads.country}
-          className={clsx("form-control", { "is-invalid": errors.country })}
-        />
-        {errors.country && (
-          <div className="invalid-feedback">{errors.country}</div>
-        )}
-
         <label htmlFor="city">City</label>
         <input
           type="text"
@@ -269,7 +218,7 @@ export function NewAd() {
         <input
           type="text"
           name="phone"
-          maxLength={9}
+          maxLength={36}
           pattern="[+-]?\d+(?:[.,]\d+)?"
           value={ads.phone}
           onChange={handleChange}
